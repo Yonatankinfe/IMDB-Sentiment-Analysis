@@ -61,3 +61,15 @@ curl -X POST http://localhost:5000/predict \
   "sentiment": "negative"
 }
 ```
+### Model Details
+
+* Algorithm: Logistic Regression
+
+
+* Vectorization: TF-IDF with max 5000 features
+
+* Training Data: 5000 samples from the IMDB movie review dataset
+
+*Classes: Binary classification (positive/negative sentiment)
+
+
