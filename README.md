@@ -54,4 +54,5 @@ curl -X POST http://localhost:5000/predict \
   -d '{"review": "This movie was terrible! I hated it."}'
 ```
 
-
+```bash
+```
