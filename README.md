@@ -26,6 +26,11 @@ To predict the sentiment of a new movie review, use the predict.py script. Provi
 ```Bash
 python predict.py "I loved this movie! It was fantastic and I highly recommend it."
 ```
+The script will output whether the sentiment is "positive" or "negative" and a confidence score.
+
+Example:
+```bash
+```
 
 
 
