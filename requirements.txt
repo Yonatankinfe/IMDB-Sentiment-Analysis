@@ -1,1 +1,6 @@
+scikit-learn
+pandas
+flask
+flask-cors
+joblib
 
