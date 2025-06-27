@@ -70,6 +70,6 @@ curl -X POST http://localhost:5000/predict \
 
 * Training Data: 5000 samples from the IMDB movie review dataset
 
-*Classes: Binary classification (positive/negative sentiment)
+* Classes: Binary classification (positive/negative sentiment)
 
 
