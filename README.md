@@ -49,7 +49,9 @@ The API will be available at http://localhost:5000.
   
 Example API usage:
 ```bash
-
+curl -X POST http://localhost:5000/predict \
+  -H "Content-Type: application/json" \
+  -d '{"review": "This movie was terrible! I hated it."}'
 ```
 
 
