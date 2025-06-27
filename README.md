@@ -55,4 +55,9 @@ curl -X POST http://localhost:5000/predict \
 ```
 
 ```bash
+{
+  "confidence": 0.8636,
+  "review": "This movie was terrible! I hated it.",
+  "sentiment": "negative"
+}
 ```
