@@ -24,6 +24,7 @@ This will train the model and save the trained model (logistic_regression_model.
 To predict the sentiment of a new movie review, use the predict.py script. Provide the review text as a command-line argument:
 
 ```Bash
+python predict.py "I loved this movie! It was fantastic and I highly recommend it."
 ```
 
 
