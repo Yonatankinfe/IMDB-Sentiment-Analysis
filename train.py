@@ -23,7 +23,15 @@ y_train_subset = y_train.loc[X_train_subset.index]
 tfidf_vectorizer = TfidfVectorizer(max_features=5000) # Limit features for efficiency
 X_train_tfidf = tfidf_vectorizer.fit_transform(X_train_subset)
 
+# Train Logistic Regression model
+model = LogisticRegression(max_iter=1000) # Increase max_iter for convergence
+model.fit(X_train_tfidf, y_train_subset)
 
+# Save the trained model and vectorizer
+joblib.dump(model, 'logistic_regression_model.pkl')
+joblib.dump(tfidf_vectorizer, 'tfidf_vectorizer.pkl')
+
+print('Model and TF-IDF vectorizer trained and saved successfully.')
 
 
 
