@@ -17,3 +17,4 @@ The model is a Logistic Regression classifier trained on TF-IDF vectorized movie
 ```bash
 python train.py
 ```
+This will train the model and save the trained model (logistic_regression_model.pkl) and the TF-IDF vectorizer (tfidf_vectorizer.pkl) to disk.
