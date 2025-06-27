@@ -18,3 +18,15 @@ The model is a Logistic Regression classifier trained on TF-IDF vectorized movie
 python train.py
 ```
 This will train the model and save the trained model (logistic_regression_model.pkl) and the TF-IDF vectorizer (tfidf_vectorizer.pkl) to disk.
+
+# Running Predictions
+
+To predict the sentiment of a new movie review, use the predict.py script. Provide the review text as a command-line argument:
+
+```Bash
+```
+
+
+
+
+
