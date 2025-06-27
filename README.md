@@ -8,4 +8,5 @@ Installation
 
 To set up the project, first clone the repository and then install the required dependencies:
 ```bash
+pip install -r requirements.txt
 ```
