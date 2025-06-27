@@ -14,4 +14,6 @@ pip install -r requirements.txt
 
 The model is a Logistic Regression classifier trained on TF-IDF vectorized movie reviews. To train the model, run the train.py script:
 
-
+```bash
+python train.py
+```
